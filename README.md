@@ -47,7 +47,17 @@ Before running the application, make sure you have the following installed:
 git clone https://github.com/syahmisenpai97/Fullstack-Parcel-Tracking-Application.git
 ```
 
-### 2. Backend Setup (Node.js/Express)
+### 2. Database Setup
+
+Ensure that you have MySQL installed and configured. You can create the `parcel_db` database using:
+
+```sql
+CREATE DATABASE parcel_db;
+```
+
+The Sequelize models will automatically sync the database structure when the backend server starts.
+
+### 3. Backend Setup (Node.js/Express)
 
 - Navigate to the backend folder:
 
@@ -81,7 +91,7 @@ nodemon index
 
 The backend server will be running on `http://localhost:5000`.
 
-### 3. Frontend Setup (React)
+### 4. Frontend Setup (React)
 
 - Navigate to the frontend folder:
 
@@ -103,7 +113,7 @@ npm start
 
 The frontend app will be running on `http://localhost:3000`.
 
-### 4. Optionally, Running Both Frontend and Backend Concurrently 
+### 5. Optionally, Running Both Frontend and Backend Concurrently 
 You can directly start both the backend and frontend with one command after setting up the .env file
 
 To run both the backend and frontend simultaneously, navigate to the root project directory (`FULLSTACK`) and run:
@@ -114,15 +124,6 @@ npm start
 
 This will start both the backend and frontend using `concurrently`.
 
-### 5. Database Setup
-
-Ensure that you have MySQL installed and configured. You can create the `parcel_db` database using:
-
-```sql
-CREATE DATABASE parcel_db;
-```
-
-The Sequelize models will automatically sync the database structure when the backend server starts.
 
 ## Parcel Model
 
