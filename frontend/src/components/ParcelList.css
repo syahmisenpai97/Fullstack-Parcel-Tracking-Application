@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+}
+
+th,
+tr,
+td {
+  text-align: center;
+  padding: 8px;
+  vertical-align: middle;
+}
+.table-actions {
+  display: flex;
+  gap: 10px;
+}
