@@ -2,6 +2,10 @@
 
 This is a full-stack Parcel Tracking Application with a **React frontend** and a **Node.js/Express backend**. The app allows users to track parcels, update parcel information, and view delivery statuses.
 
+I choose Node.js for this project because it is currently the number one framework used by programmers around the world, according to [Stack Overflow](https://survey.stackoverflow.co/2024/technology/), making it a popular choice for building scalable and efficient server-side applications.
+
+One of the significant challenges I encountered during this project was the learning curve associated with JavaScript, React, and Node.js. Having only five days to familiarize myself with these technologies, I had to quickly grasp their concepts and best practices. This intensive learning experience required me to understand JavaScript fundamentals, as they are the core of both React and Node.js.
+
 App preview: https://youtu.be/3J8cA3ka6Dk
 
 ## Features
