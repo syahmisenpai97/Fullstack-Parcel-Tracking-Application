@@ -2,6 +2,8 @@
 
 This is a full-stack Parcel Tracking Application with a **React frontend** and a **Node.js/Express backend**. The app allows users to track parcels, update parcel information, and view delivery statuses.
 
+App preview: https://youtu.be/3J8cA3ka6Dk
+
 ## Features
 
 - **Frontend**: Built with React, Bootstrap, and Axios for API calls.
